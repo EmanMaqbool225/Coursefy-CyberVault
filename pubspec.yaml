@@ -1,0 +1,47 @@
+name: locksel_app
+description: "منصة تعليمية آمنة بتشغيل محمي وترخيص غير متصل بالإنترنت"
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # إدارة الحالة والتنقل
+  flutter_riverpod: ^2.5.1
+  go_router: ^14.2.0
+
+  # الأمان وبصمة الجهاز والتخزين المشفر
+  cryptography: ^2.7.1
+  device_info_plus: ^10.1.0
+  flutter_secure_storage: ^9.2.2
+  
+# تشغيل الوسائط (سنفعلها لاحقاً عند برمجة المشغل)
+  # media_kit: ^1.1.10
+  # media_kit_video: ^1.2.4
+  # media_kit_libs_windows_video: ^1.0.11
+
+  # حماية الشاشة من التسجيل واللقطات (للهاتف)
+  screen_protector: ^1.4.1
+
+  # الخطوط وتنسيق الواجهات
+  google_fonts: ^6.2.1
+  url_launcher: ^6.3.2
+  encrypt: ^5.0.3
+  video_player_win: ^3.3.0
+  video_player: ^2.10.1
+  path_provider: ^2.1.5
+  file_picker: ^11.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
